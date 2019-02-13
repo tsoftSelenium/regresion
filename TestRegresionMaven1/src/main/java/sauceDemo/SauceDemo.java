@@ -60,9 +60,7 @@ public static void startTest(){
 	test.assignAuthor("Lautaro");
 	test.setDescription("Realiza compra en 'Sauce Demo'");
 //	System.out.println(test.getStartedTime().toString());
-	ChromeOptions options = new ChromeOptions();
-	options.addArguments("--no-sandbox");
-	driver= new ChromeDriver(options); 				// Crea un chrome driver
+	driver= new ChromeDriver(); 				// Crea un chrome driver
 	driver.get(url);							//Ingresa a la url especificada
 	driver.manage().window().maximize();	 	//Maximiza el navegador
 	driver.manage().deleteAllCookies();			//Borra todas las cookies
