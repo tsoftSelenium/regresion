@@ -61,7 +61,7 @@ public static void startTest(){
 	test.setDescription("Realiza compra en 'Sauce Demo'");
 //	System.out.println(test.getStartedTime().toString());
 	ChromeOptions options = new ChromeOptions();
-	options.setBinary("C:\\TeamCity\\buildAgent\\tools\\chromedriver");
+	options.setBinary("C:\\TeamCity\\buildAgent\\tools\\chromedriver\\chromedriver.exe");
 	driver= new ChromeDriver(options); 				// Crea un chrome driver
 	driver.get(url);							//Ingresa a la url especificada
 	driver.manage().window().maximize();	 	//Maximiza el navegador
