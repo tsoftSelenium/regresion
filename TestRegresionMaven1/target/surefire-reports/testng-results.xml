@@ -2,61 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-13T18:06:15Z" name="Suite1" finished-at="2019-02-13T18:07:34Z" duration-ms="78695">
+  <suite started-at="2019-02-13T18:51:39Z" name="Suite1" finished-at="2019-02-13T18:52:46Z" duration-ms="66908">
     <groups>
     </groups>
-    <test started-at="2019-02-13T18:06:15Z" name="http://testng.org/testng-1.0.dtd" finished-at="2019-02-13T18:07:34Z" duration-ms="78695">
+    <test started-at="2019-02-13T18:51:39Z" name="http://testng.org/testng-1.0.dtd" finished-at="2019-02-13T18:52:46Z" duration-ms="66908">
       <class name="regresion.Regresion">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:regresion.Regresion@1a677343]" started-at="2019-02-13T18:06:15Z" name="setUp" finished-at="2019-02-13T18:06:16Z" duration-ms="582" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:regresion.Regresion@489115ef]" started-at="2019-02-13T18:51:39Z" name="setUp" finished-at="2019-02-13T18:51:40Z" duration-ms="722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="regresion()[pri:0, instance:regresion.Regresion@1a677343]" started-at="2019-02-13T18:06:16Z" name="regresion" finished-at="2019-02-13T18:07:33Z" duration-ms="76793" status="FAIL">
+        <test-method signature="regresion()[pri:0, instance:regresion.Regresion@489115ef]" started-at="2019-02-13T18:51:40Z" name="regresion" finished-at="2019-02-13T18:52:45Z" duration-ms="65174" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: Failed to create a Chrome process.
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 313 milliseconds
+              <![CDATA[Timed out waiting for driver server to start.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AR-NB-112', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Failed to create a Chrome process.
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 313 milliseconds
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AR-NB-112', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: driver.version: ChromeDriver
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
-at sauceDemo.SauceDemo.startTest(SauceDemo.java:65)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at sauceDemo.SauceDemo.startTest(SauceDemo.java:66)
 at regresion.Regresion.regresion(Regresion.java:58)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -78,13 +55,22 @@ at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:39282/status] to be available after 20000 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 30 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 31 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regresion -->
-        <test-method is-config="true" signature="thearDown()[pri:0, instance:regresion.Regresion@1a677343]" started-at="2019-02-13T18:07:33Z" name="thearDown" finished-at="2019-02-13T18:07:34Z" duration-ms="1261" status="PASS">
+        <test-method is-config="true" signature="thearDown()[pri:0, instance:regresion.Regresion@489115ef]" started-at="2019-02-13T18:52:45Z" name="thearDown" finished-at="2019-02-13T18:52:46Z" duration-ms="918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thearDown -->
