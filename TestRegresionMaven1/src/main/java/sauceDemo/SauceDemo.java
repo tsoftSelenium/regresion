@@ -62,7 +62,7 @@ public static void startTest(){
 //	System.out.println(test.getStartedTime().toString());
 	System.setProperty("webdriver.chrome.driver",
 
-	           "C:\\Program Files (x86)\\Google\\Chrome\\Application.exe");
+	           "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
 	driver= new ChromeDriver(); 				// Crea un chrome driver
 	driver.get(url);							//Ingresa a la url especificada
 	driver.manage().window().maximize();	 	//Maximiza el navegador
