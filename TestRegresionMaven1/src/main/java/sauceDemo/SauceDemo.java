@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
@@ -59,7 +60,9 @@ public static void startTest(){
 	test.assignAuthor("Lautaro");
 	test.setDescription("Realiza compra en 'Sauce Demo'");
 //	System.out.println(test.getStartedTime().toString());
-	driver= new ChromeDriver(); 				// Crea un chrome driver
+	ChromeOptions options = new ChromeOptions();
+	options.setBinary("C:\\TeamCity\\buildAgent\\tools\\chromedriver");
+	driver= new ChromeDriver(options); 				// Crea un chrome driver
 	driver.get(url);							//Ingresa a la url especificada
 	driver.manage().window().maximize();	 	//Maximiza el navegador
 	driver.manage().deleteAllCookies();			//Borra todas las cookies
