@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
               <span class="suite-name border-passed">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
-                    <span>C:\Users\lautaro.laghezza\Desktop\descargas de selenium\selenium-pruebas\TestRegresionMaven3\testng.xml</span>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>C:\Users\lautaro.laghezza\git\regresion\TestRegresionMaven1\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,8 +101,8 @@
                     </span>
                     <div class="method-list-content passed suite-Suite1">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestRegresionMaven3.TestRegresionMaven3.Regresion" hash-for-method="regresion">regresion</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="regresion.Regresion" class="method navigator-link" hash-for-method="regresion">regresion</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -120,7 +120,7 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestRegresionMaven3.TestRegresionMaven3.Regresion</span>
+              <span class="class-name">regresion.Regresion</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -135,16 +135,16 @@
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\lautaro.laghezza\Desktop\descargas de selenium\selenium-pruebas\TestRegresionMaven3\testng.xml</span>
+            <span class="header-content">C:\Users\lautaro.laghezza\git\regresion\TestRegresionMaven1\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1&quot; parallel=&quot;tests&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;http://testng.org/testng-1.0.dtd&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;http://testng.org/testng-1.0.dtd&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestRegresionMaven3.TestRegresionMaven3.Regresion&quot;/&gt;
+      &lt;class name=&quot;regresion.Regresion&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- http://testng.org/testng-1.0.dtd --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
@@ -187,8 +187,8 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'regresion')
-data.setCell(0, 2, 'TestRegresionMaven3.TestRegresionMaven3.Regresion')
-data.setCell(0, 3, 76038);
+data.setCell(0, 2, 'regresion.Regresion')
+data.setCell(0, 3, 70600);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
@@ -219,18 +219,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestRegresionMaven3.TestRegresionMaven3.Regresion</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">regresion.Regresion</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">regresion</span>
-                <span class="method-start">530 ms</span>
+                <span class="method-start">418 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">thearDown</span>
-                <span class="method-start">76570 ms</span>
+                <span class="method-start">71020 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
