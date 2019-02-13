@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.275 s <<< FAILURE! - in TestSuite
-regresion(regresion.Regresion)  Time elapsed: 51.241 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Timed out waiting for driver server to start.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AR-NB-112', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: driver.version: ChromeDriver
-	at regresion.Regresion.regresion(Regresion.java:58)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:8260/status] to be available after 20000 ms
-	at regresion.Regresion.regresion(Regresion.java:58)
-Caused by: java.util.concurrent.TimeoutException
-	at regresion.Regresion.regresion(Regresion.java:58)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 134.99 s - in TestSuite
