@@ -147,7 +147,7 @@ Driver info: driver.version: ChromeDriver
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:39282/status] to be available after 20000 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:8260/status] to be available after 20000 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
 	... 30 more
@@ -218,12 +218,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'regresion')
 data.setCell(0, 2, 'regresion.Regresion')
-data.setCell(0, 3, 65174);
+data.setCell(0, 3, 51208);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -258,11 +258,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">regresion</span>
-                <span class="method-start">777 ms</span>
+                <span class="method-start">575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">thearDown</span>
-                <span class="method-start">65969 ms</span>
+                <span class="method-start">51803 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

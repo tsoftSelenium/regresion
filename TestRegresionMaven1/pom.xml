@@ -63,6 +63,14 @@
     <artifactId>ant-1.7.0</artifactId>
     <version>1.0-rc-1</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>3.141.59</version>
+</dependency>
+
      
   </dependencies>
   
