@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-13T20:40:13Z" name="Suite1" finished-at="2019-02-13T20:41:27Z" duration-ms="73030">
+  <suite started-at="2019-02-14T12:25:32Z" name="Suite1" finished-at="2019-02-14T12:26:48Z" duration-ms="75862">
     <groups>
     </groups>
-    <test started-at="2019-02-13T20:40:13Z" name="http://testng.org/testng-1.0.dtd" finished-at="2019-02-13T20:41:27Z" duration-ms="73030">
+    <test started-at="2019-02-14T12:25:32Z" name="http://testng.org/testng-1.0.dtd" finished-at="2019-02-14T12:26:48Z" duration-ms="75862">
       <class name="regresion.Regresion">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:regresion.Regresion@489115ef]" started-at="2019-02-13T20:40:13Z" name="setUp" finished-at="2019-02-13T20:40:14Z" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:regresion.Regresion@1a677343]" started-at="2019-02-14T12:25:32Z" name="setUp" finished-at="2019-02-14T12:25:33Z" duration-ms="868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="regresion()[pri:0, instance:regresion.Regresion@489115ef]" started-at="2019-02-13T20:40:14Z" name="regresion" finished-at="2019-02-13T20:41:26Z" duration-ms="71714" status="PASS">
+        <test-method signature="regresion()[pri:0, instance:regresion.Regresion@1a677343]" started-at="2019-02-14T12:25:33Z" name="regresion" finished-at="2019-02-14T12:26:46Z" duration-ms="73292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regresion -->
-        <test-method is-config="true" signature="thearDown()[pri:0, instance:regresion.Regresion@489115ef]" started-at="2019-02-13T20:41:26Z" name="thearDown" finished-at="2019-02-13T20:41:27Z" duration-ms="725" status="PASS">
+        <test-method is-config="true" signature="thearDown()[pri:0, instance:regresion.Regresion@1a677343]" started-at="2019-02-14T12:26:46Z" name="thearDown" finished-at="2019-02-14T12:26:48Z" duration-ms="1655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thearDown -->
