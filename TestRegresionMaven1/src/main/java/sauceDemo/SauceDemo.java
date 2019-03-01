@@ -141,13 +141,13 @@ public static void startTest(){
 			
 /////////////////CIERRA SESION
 		LogOutSauce logOut = new LogOutSauce();
-	//	logOut.deslogearse(driver);
+		logOut.deslogearse(driver);
 
 ///////////////// VERIFICA QUE SE HAYA REALIZADO CORRECTAMENTE EL LOGOUT
 		if (logOut.seRealizoCorrectamente(driver)) {
 			test.log(LogStatus.PASS,test.addScreenCapture(capture(driver))+"LogOut Valido");
 		}else {
-		//	test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+"Error logout");
+			test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+"Error logout");
 		}
 	}
 
