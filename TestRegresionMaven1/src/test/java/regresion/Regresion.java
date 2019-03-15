@@ -27,7 +27,7 @@ public void setUp() {
 	report.loadConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml")); 				 		   //Configuracion del reporte
 	test = report.startTest("RegresionTime"); 														 		   //Nombre del test
 	test.assignAuthor("Lautaro");																	 		   //Autor del test
-	test.setDescription("Horarios de inicio y finalizacion de los test");						       		   //Descripcion del test
+	test.setDescription("Horarios de inicio y finalizacion de los test");					       		   //Descripcion del test
 	 
 }
   @SuppressWarnings("static-access")
