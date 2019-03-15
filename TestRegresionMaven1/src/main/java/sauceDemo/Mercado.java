@@ -27,7 +27,7 @@ public class Mercado {
 		input = driver.findElement(By.xpath("//*[@id=\"postal-code\"]"));	
 		input.sendKeys("2018");
 		
-		continuar = driver.findElement(By.xpath("//*[@id=\"checkout_info_container\"]/div/form/div[2]/input]"));
+		continuar = driver.findElement(By.xpath("//*[@id=\"checkout_info_container\"]/div/form/div[2]/input"));
 		continuar.click();
 		
 		continuar = driver.findElement(By.xpath("//*[@id=\"checkout_summary_container\"]/div/div[2]/div[8]/a[2]"));
