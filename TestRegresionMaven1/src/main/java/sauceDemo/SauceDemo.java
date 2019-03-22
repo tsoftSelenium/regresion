@@ -133,7 +133,7 @@ public static void startTest(){
 		
 /////////////////VALIDA QUE LA COMPRA SE REALICE
 		WebElement compraValida = driver.findElement(By.xpath("//*[@id=\"contents_wrapper\"]/div[2]"));
-		if (compraValida.getText().equalsIgnoreCase("Checkout: Complete!")) {
+		if (compraValida.getText().equalsIgnoreCase("Finish")) {
 			test.log(LogStatus.PASS,test.addScreenCapture(capture(driver))+"Compra realizada con éxito");
 		}else {
 			test.log(LogStatus.FAIL,test.addScreenCapture(capture(driver))+"La compra falló, verifique");
