@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import org.apache.tools.ant.util.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -60,6 +61,8 @@ public static void startTest(){
 	test.assignAuthor("Lautaro");
 	test.setDescription("Realiza compra en 'Sauce Demo'");
 //	System.out.println(test.getStartedTime().toString()); 
+	ChromeOptions options = new ChromeOptions();
+	options.setPageLoadStrategy(PageLoadStrategy.NONE);
 	driver= new ChromeDriver(); 				// Crea un chrome driver
 	driver.get(url);							//Ingresa a la url especificada
 	driver.manage().window().maximize();	 	//Maximiza el navegador
