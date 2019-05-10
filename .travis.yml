@@ -23,5 +23,4 @@ before_install:
 - sudo cp geckodriver /usr/bin
 before_script:
    - sudo apt-get install ant-optional
-script: ant test -lib ./lib/junit-4.12.jar
 script: ant build
